@@ -1,0 +1,25 @@
+# Core LangChain
+langchain>=0.3
+langchain-community>=0.3
+langchain-openai
+
+# Vector Database  
+chromadb==0.4.24
+
+# Embeddings
+voyageai==0.2.1
+
+# LLM
+openai
+
+# Document Loading
+pypdf
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+
+# CRITICAL: httpx 0.24.x ensures compatibility
+httpx>=0.24,<0.25
